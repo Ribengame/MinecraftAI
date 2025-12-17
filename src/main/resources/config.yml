@@ -1,0 +1,5 @@
+openai_api_key: "YOUR_OPEN_AI_KEY"
+max_messages_per_day: 1000
+max_message_length: 200
+delete_bad_messages: true
+scan_every_x_messages: 5

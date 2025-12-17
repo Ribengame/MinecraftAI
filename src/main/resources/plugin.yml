@@ -1,0 +1,9 @@
+name: ChatAI
+main: com.oskargerliczkowalczuk.chatai.ChatAIPlugin
+version: 1.8.8-R0.1-SNAPSHOT
+api-version: 1.8
+author: Oskar Gerlicz-Kowalczuk
+commands:
+  chatai:
+    description: ChatAI main command
+    usage: /<command>
