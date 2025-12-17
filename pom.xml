@@ -81,11 +81,11 @@
                                 </filter>
                             </filters>
                             <transformers>
-                                <!-- Wstawienie plugin.yml do root JAR -->
+                                <!-- Insert plugin.yml -->
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>plugin.yml</resource>
                                 </transformer>
-                                <!-- Wstawienie config.yml do root JAR -->
+                                <!-- insert config.yml -->
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>config.yml</resource>
                                 </transformer>
