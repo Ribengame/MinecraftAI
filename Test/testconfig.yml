@@ -1,0 +1,20 @@
+openai_api_key: "PUT_YOUR_API_KEY_HERE"
+
+
+# AI model used for moderation
+# Available options:
+# - gpt-5-mini (recommended)
+# - gpt-5-nano (cheapest)
+ai_model: "gpt-5-mini"
+
+
+# How many chat messages are sent in ONE OpenAI request
+batch_size: 5
+
+
+# Maximum allowed chat message length
+max_message_length: 200
+
+
+# Mute duration in minutes when bad content is detected
+mute_minutes: 15
